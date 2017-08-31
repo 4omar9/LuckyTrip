@@ -15,16 +15,7 @@ class LocationManger: NSObject, CLLocationManagerDelegate {
 	static let locManager = CLLocationManager()
 	static var userLatitude : String?
 	static var userLongitude : String?
-	
-//	static func getUserLocation(completionHandler:@escaping (_ latitude : String,_ longitude : String) -> ()) {
-//		var currentLocation: CLLocation!
-//		locManager.requestWhenInUseAuthorization()
-//		if (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedWhenInUse ||
-//			CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedAlways){
-//			currentLocation = locManager.location
-//			completionHandler (String(currentLocation.coordinate.latitude), String(currentLocation.coordinate.longitude))
-//		}
-//	}
+
 	static func getUserLocation() {
 		var currentLocation: CLLocation!
 		locManager.requestWhenInUseAuthorization()
