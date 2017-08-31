@@ -23,6 +23,9 @@
 		0AA0FE151F5823B500B169E9 /* LuckyTrip_technicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0FE141F5823B500B169E9 /* LuckyTrip_technicalTestTests.swift */; };
 		0AA0FE201F5823B500B169E9 /* LuckyTrip_technicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0FE1F1F5823B500B169E9 /* LuckyTrip_technicalTestUITests.swift */; };
 		3E603B8FBE506AD77AD19BEE /* Pods_LuckyTrip_technicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DCEA70A7580A95C84715CD /* Pods_LuckyTrip_technicalTest.framework */; };
+		60C7BDF1FC1004EB51B9FB45 /* Pods_LuckyTrip_technicalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9622D611DAE8B74FA469850 /* Pods_LuckyTrip_technicalUITests.framework */; };
+		CAF459CE186E1CCF1FAD9A58 /* Pods_LuckyTrip_technical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E452BAD07EC91575ECF84 /* Pods_LuckyTrip_technical.framework */; };
+		DE8B524E929F63C004291C20 /* Pods_LuckyTrip_technicalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D5D08EECE612F2FF0DCD03 /* Pods_LuckyTrip_technicalTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A85DD9A560BCC908B7007C /* Pods-LuckyTrip-technicalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technicalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technicalUITests/Pods-LuckyTrip-technicalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0A3F94771F58267D0098F6A9 /* LTAirport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTAirport.swift; path = Model/LTAirport.swift; sourceTree = "<group>"; };
 		0A3F94791F582D930098F6A9 /* LTCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTCountry.swift; path = Model/LTCountry.swift; sourceTree = "<group>"; };
 		0A3F947B1F582EAD0098F6A9 /* LTThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTThumbnail.swift; path = Model/LTThumbnail.swift; sourceTree = "<group>"; };
@@ -64,11 +68,19 @@
 		0AA0FE1B1F5823B500B169E9 /* LuckyTrip-technicalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LuckyTrip-technicalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA0FE1F1F5823B500B169E9 /* LuckyTrip_technicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyTrip_technicalTestUITests.swift; sourceTree = "<group>"; };
 		0AA0FE211F5823B500B169E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D5D08EECE612F2FF0DCD03 /* Pods_LuckyTrip_technicalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip_technicalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A61E5D5EB382F0164DDA5A /* Pods_LuckyTrip_technicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip_technicalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475760E777EB61E16C3EA619 /* Pods-LuckyTrip-technical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technical.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technical/Pods-LuckyTrip-technical.release.xcconfig"; sourceTree = "<group>"; };
 		74DCEA70A7580A95C84715CD /* Pods_LuckyTrip_technicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip_technicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9622D611DAE8B74FA469850 /* Pods_LuckyTrip_technicalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip_technicalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E452BAD07EC91575ECF84 /* Pods_LuckyTrip_technical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip_technical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09169FA07AF164E0CF6EB5B /* Pods-LuckyTrip-technical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technical.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technical/Pods-LuckyTrip-technical.debug.xcconfig"; sourceTree = "<group>"; };
+		B98EA160988102313172011A /* Pods-LuckyTrip-technicalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technicalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technicalUITests/Pods-LuckyTrip-technicalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C23428B5240FC56D293F0E6A /* Pods-LuckyTrip-technicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technicalTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technicalTest/Pods-LuckyTrip-technicalTest.release.xcconfig"; sourceTree = "<group>"; };
 		C759BD921AF05BFF23EE1E14 /* Pods_LuckyTrip_technicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip_technicalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38CB1F9A2B3942E59FE5142 /* Pods-LuckyTrip-technicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technicalTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technicalTest/Pods-LuckyTrip-technicalTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3867FC2CDAC4EAEFBAF62F /* Pods-LuckyTrip-technicalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technicalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technicalTests/Pods-LuckyTrip-technicalTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8588603277325299110E810 /* Pods-LuckyTrip-technicalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip-technicalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyTrip-technicalTests/Pods-LuckyTrip-technicalTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E603B8FBE506AD77AD19BEE /* Pods_LuckyTrip_technicalTest.framework in Frameworks */,
+				CAF459CE186E1CCF1FAD9A58 /* Pods_LuckyTrip_technical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8B524E929F63C004291C20 /* Pods_LuckyTrip_technicalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C7BDF1FC1004EB51B9FB45 /* Pods_LuckyTrip_technicalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +237,12 @@
 			children = (
 				D38CB1F9A2B3942E59FE5142 /* Pods-LuckyTrip-technicalTest.debug.xcconfig */,
 				C23428B5240FC56D293F0E6A /* Pods-LuckyTrip-technicalTest.release.xcconfig */,
+				B09169FA07AF164E0CF6EB5B /* Pods-LuckyTrip-technical.debug.xcconfig */,
+				475760E777EB61E16C3EA619 /* Pods-LuckyTrip-technical.release.xcconfig */,
+				F8588603277325299110E810 /* Pods-LuckyTrip-technicalTests.debug.xcconfig */,
+				EC3867FC2CDAC4EAEFBAF62F /* Pods-LuckyTrip-technicalTests.release.xcconfig */,
+				B98EA160988102313172011A /* Pods-LuckyTrip-technicalUITests.debug.xcconfig */,
+				02A85DD9A560BCC908B7007C /* Pods-LuckyTrip-technicalUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -232,6 +253,9 @@
 				74DCEA70A7580A95C84715CD /* Pods_LuckyTrip_technicalTest.framework */,
 				C759BD921AF05BFF23EE1E14 /* Pods_LuckyTrip_technicalTestTests.framework */,
 				33A61E5D5EB382F0164DDA5A /* Pods_LuckyTrip_technicalTestUITests.framework */,
+				AD7E452BAD07EC91575ECF84 /* Pods_LuckyTrip_technical.framework */,
+				10D5D08EECE612F2FF0DCD03 /* Pods_LuckyTrip_technicalTests.framework */,
+				A9622D611DAE8B74FA469850 /* Pods_LuckyTrip_technicalUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA0FE271F5823B500B169E9 /* Build configuration list for PBXNativeTarget "LuckyTrip-technicalTests" */;
 			buildPhases = (
+				BE91AB9B93CA19F43A88979A /* [CP] Check Pods Manifest.lock */,
 				0AA0FE0C1F5823B500B169E9 /* Sources */,
 				0AA0FE0D1F5823B500B169E9 /* Frameworks */,
 				0AA0FE0E1F5823B500B169E9 /* Resources */,
+				4C366F494C913E45CC0868AF /* [CP] Embed Pods Frameworks */,
+				227C22296135854B1C4B366C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA0FE2A1F5823B500B169E9 /* Build configuration list for PBXNativeTarget "LuckyTrip-technicalUITests" */;
 			buildPhases = (
+				79C5118F42E95C2D59C3BEDB /* [CP] Check Pods Manifest.lock */,
 				0AA0FE171F5823B500B169E9 /* Sources */,
 				0AA0FE181F5823B500B169E9 /* Frameworks */,
 				0AA0FE191F5823B500B169E9 /* Resources */,
+				1A2F0B9D521533D4FCA42F75 /* [CP] Embed Pods Frameworks */,
+				329B1A007680CD55D96F4CBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,6 +402,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1A2F0B9D521533D4FCA42F75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technicalUITests/Pods-LuckyTrip-technicalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		227C22296135854B1C4B366C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technicalTests/Pods-LuckyTrip-technicalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		329B1A007680CD55D96F4CBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technicalUITests/Pods-LuckyTrip-technicalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C366F494C913E45CC0868AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technicalTests/Pods-LuckyTrip-technicalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5D7B388F0F078D1678C09FC2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,7 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technicalTest/Pods-LuckyTrip-technicalTest-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technical/Pods-LuckyTrip-technical-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		77726F005E2F0D926E6646DB /* [CP] Embed Pods Frameworks */ = {
@@ -414,7 +504,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technicalTest/Pods-LuckyTrip-technicalTest-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyTrip-technical/Pods-LuckyTrip-technical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C5118F42E95C2D59C3BEDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE91AB9B93CA19F43A88979A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -583,7 +703,7 @@
 		};
 		0AA0FE251F5823B500B169E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D38CB1F9A2B3942E59FE5142 /* Pods-LuckyTrip-technicalTest.debug.xcconfig */;
+			baseConfigurationReference = B09169FA07AF164E0CF6EB5B /* Pods-LuckyTrip-technical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P78RKU833J;
@@ -597,7 +717,7 @@
 		};
 		0AA0FE261F5823B500B169E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C23428B5240FC56D293F0E6A /* Pods-LuckyTrip-technicalTest.release.xcconfig */;
+			baseConfigurationReference = 475760E777EB61E16C3EA619 /* Pods-LuckyTrip-technical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P78RKU833J;
@@ -611,6 +731,7 @@
 		};
 		0AA0FE281F5823B500B169E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8588603277325299110E810 /* Pods-LuckyTrip-technicalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -626,6 +747,7 @@
 		};
 		0AA0FE291F5823B500B169E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3867FC2CDAC4EAEFBAF62F /* Pods-LuckyTrip-technicalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -641,6 +763,7 @@
 		};
 		0AA0FE2B1F5823B500B169E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98EA160988102313172011A /* Pods-LuckyTrip-technicalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P78RKU833J;
@@ -655,6 +778,7 @@
 		};
 		0AA0FE2C1F5823B500B169E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A85DD9A560BCC908B7007C /* Pods-LuckyTrip-technicalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P78RKU833J;
