@@ -18,7 +18,7 @@ class SelectAirpotVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		RequestManager.getAirports(countryCode: self.selectedCountryCode!, UserLatitude: "2.12222222", UserLongitude: "-2.12222222", completionHandler: { (array, error) in
+		RequestManager.getAirports(countryCode: self.selectedCountryCode!, UserLatitude: LocationManger.userLatitude, UserLongitude: LocationManger.userLongitude, completionHandler: { (array, error) in
 			self.airports.removeAll()
 			self.airports = array!
 			self.tableView.reloadData()
